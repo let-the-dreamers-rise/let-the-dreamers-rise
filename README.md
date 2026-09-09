@@ -1,10 +1,21 @@
 # Ashwin Goyal
 
-**I build the safety, policy and audit layer for AI agents that take consequential action.**
+**I build intelligence a person can read, own and correct, and I measure what it costs.**
 
-Over the last eight months I kept arriving at the same problem from different directions: how do you let an autonomous agent move money, sign a transaction or approve a decision without catastrophe - and prove afterwards exactly why it decided what it did.
+One question, approached from two sides. From the research side: how much of an agent can run with no model in the loop, on hardware people already have, and what does capability cost as you spend less? From the engineering side: how do you let an agent act, move money, sign, decide, and prove afterwards exactly why it did what it did?
 
-90+ shipped projects, 30+ deployed and live. These are the ones that matter.
+## Current work
+
+| Project | What it is | Evidence |
+|---------|------------|----------|
+| **[nyaya](https://github.com/let-the-dreamers-rise/nyaya)** | A benchmark for world models with cost as a scored column, and the dependency-free runtime at the $0 end of the curve. Learns an unseen game's rules on CPU and stores them as a page of Python you can read. | 249 tests, two corpora, every number regenerates from one command, held-out tables rebuilt by CI on every push. The losing rows are published: a one-line heuristic beats the learner, naive Bayes beats the readable rules, delegation is 2% today. [Site](https://let-the-dreamers-rise.github.io/nyaya/). |
+| **[auto-evolve](https://github.com/let-the-dreamers-rise/auto-evolve)** | The spec nyaya's engine is built toward: skills compiled from experience, verified by replay so anyone holding the evidence can rescore them, inherited by the next agent. | Engine extracted from the ARC-AGI-3 work; archive and inheritance layers specified, not yet built. |
+
+Everything below is earlier work on the engineering side of the same question. It is kept because it is real and shipped, not because it is the current focus.
+
+---
+
+## Earlier: agent authority and audit
 
 ---
 
