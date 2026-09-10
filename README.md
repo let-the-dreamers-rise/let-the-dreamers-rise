@@ -85,4 +85,4 @@ Available for contract work on agent governance, autonomous transaction safety, 
 
 If you are shipping agents that touch money or take irreversible action and you need the guardrail, policy and audit layer built properly - that is the thing I have built ten times.
 
-**Contact:** ashgoyal1990@gmail.com
+**Contact:** ashwingoyal2006@gmail.com
