@@ -1,0 +1,4 @@
+mcp>=2.3
+psycopg[binary]>=3.2
+sqlglot>=27
+pytest>=8
