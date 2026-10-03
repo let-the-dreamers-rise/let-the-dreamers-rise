@@ -2,6 +2,11 @@
 
 **I build intelligence a person can read, own and correct, and I measure what it costs.**
 
+> **Open to paid contract work, remote.** Protocol conformance testing (Bitcoin BIP 360 / P2MR), MCP servers and agent tooling, and spend-limit security for agents that move money.
+> - Merged fix in Bitcoin's BIP repository: [bitcoin/bips#2273](https://github.com/bitcoin/bips/pull/2273), closing two gaps my own test suite found in the BIP 360 reference implementation, ACKed by BIP editor jonatack.
+> - The same suite found a real bug in bitcoinjs-lib's P2MR support ([results](https://github.com/let-the-dreamers-rise/p2mr-assurance-lab/tree/main/implementations/bitcoinjs-lib)).
+> - Contact: ashwingoyal2006@gmail.com
+
 One question, approached from two sides. From the research side: how much of an agent can run with no model in the loop, on hardware people already have, and what does capability cost as you spend less? From the engineering side: how do you let an agent act, move money, sign, decide, and prove afterwards exactly why it did what it did?
 
 ## Current work
@@ -82,7 +87,9 @@ The core thesis. Ten independent attempts at giving autonomous systems bounded a
 
 ## Work with me
 
-Available for contract work on agent governance, autonomous transaction safety, and on-chain infrastructure.
+Available for contract work on protocol conformance testing, agent governance, autonomous transaction safety, and on-chain infrastructure.
+
+What a first engagement usually looks like: I run an independent test suite against your implementation, send you every divergence with a failing test, and fix the ones you want fixed. That is how bitcoin/bips#2273 happened.
 
 If you are shipping agents that touch money or take irreversible action and you need the guardrail, policy and audit layer built properly - that is the thing I have built ten times.
 
